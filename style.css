@@ -1,1 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  background-color: #ecf0f3;
+  font-weight: 700;
+}
+
+.container {
+  padding: 10px;
+  background-color: #ecf0f3;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 30px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.content {
+  
+}
+
+.profile-name {
+  color: #444;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 35px;
+}
+
+marquee {
+  color: 444;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.profile {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.links {
+  display: grid;
+  margin-top: 5px;
+  padding-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+  margin: auto;
+  margin-top: 20px;
+  padding: 15px;
+  width: 80%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 25px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  color: #555;
+}
+
+.link:hover {
+  transform: scaleX(0.98) scaleY(0.98);
+}
